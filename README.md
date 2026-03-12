@@ -7,7 +7,15 @@
 ---
 
 ## 📖 Giriş və Proyekt Haqqında
-Bu layihə video oyun sənayesinin 36 illik (1980-2016) inkişafını analiz edir. Real satış məlumatları əsasında platforma, janr və region trendləri araşdırılmışdır. 16,500-dən çox oyunun statistikasını əhatə edən bu analiz data analitikası öyrənmə səyahətimin bir hissəsidir.
+Bu layihə video oyun sənayesinin 36 illik (1980-2016) inkişafını analiz edir. Analiz prosesində əsas məlumat mənbəyi kimi layihə qovluğunda yer alan **`vgsales.csv`** datasetindən istifadə olunmuşdur. 
+
+**Dataset haqqında məlumat (`vgsales.csv`):**
+* **Mənbə:** Kaggle (Video Game Sales)
+* **Həcm:** 16,500+ oyun statistikası
+* **Əhatə dairəsi:** 1980 - 2016-cı illər (və bəzi 2020 proqnozları)
+* **Sütunlar:** Oyun adı, Platforma, Buraxılış ili, Janr, Publisher və Regionlar üzrə (NA, EU, JP, Other) satış rəqəmləri.
+
+Bu analiz real verilənlər bazası üzərində platforma, janr və region trendlərini araşdırmaq üçün hazırlanmışdır və mənim data analitikası öyrənmə səyahətimin bir hissəsidir.
 
 ### 🎯 Məqsəd:
 * Ən uğurlu platformaları və janrları müəyyənləşdirmək.
